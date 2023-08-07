@@ -1,0 +1,188 @@
+:root {
+    --bg-color: #f1f1f1;
+    --primarily-color: #009688;
+    --text-color: #757575;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 10px;
+  }
+  body {
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--bg-color);
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 140rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
+  .user-info,
+  .work-experience,
+  .education {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  /* begin: user-info */
+  .avatar {
+    position: relative;
+  }
+  .avatar-title {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  .info-content {
+    padding: 1.5rem;
+  }
+  .info-detail i,
+  .skill-title i,
+  .language-title i {
+    color: var(--primarily-color);
+    font-size: 2rem;
+    margin-right: 1.2rem;
+  }
+  .info-detail p {
+    color: var(--text-color);
+    margin: 1.5rem 0;
+  }
+  hr {
+    margin: 3rem 0;
+  }
+  .skill-title,
+  .language-title {
+    font-size: 2.2rem;
+    color: var(--text-color);
+  }
+  .progress-container {
+    margin-top: 2rem;
+  }
+  .label {
+    color: var(--text-color);
+    margin-bottom: 2rem;
+  }
+  .progress-bar {
+    background-color: var(--bg-color);
+    width: 100%;
+    height: 2rem;
+    border-radius: 1.5rem;
+  }
+  .progress-percent {
+    height: 100%;
+    background-color: var(--primarily-color);
+    border-radius: inherit;
+    color: #fff;
+    text-align: center;
+  }
+  .adobe-photoshop {
+    width: 90%;
+  }
+  .photography {
+    width: 80%;
+  }
+  .illustrator {
+    width: 75%;
+  }
+  .media {
+    width: 50%;
+  }
+  .language {
+    margin-top: 3rem;
+  }
+  .english {
+    width: 100%;
+  }
+  .spanish {
+    width: 50%;
+  }
+  .german {
+    width: 30%;
+  }
+  /* end */
+  
+  /* begin: story */
+  .story {
+    margin-top: 2rem;
+  }
+  /* begin: work-experience */
+  .work-experience,
+  .education {
+    padding: 1.5rem;
+  }
+  .experience-title i,
+  .education-title i {
+    color: var(--primarily-color);
+    font-size: 3.2rem;
+  }
+  .experience-title,
+  .education-title {
+    font-size: 3.2rem;
+    color: var(--text-color);
+    font-weight: 500;
+  }
+  .work-experience-item,
+  .education-item {
+    margin-top: 2rem;
+    padding: 0 1.6rem;
+  }
+  h5 {
+    color: var(--text-color);
+    font-size: 1.8rem;
+  }
+  h6 {
+    margin: 2rem 0;
+    color: var(--primarily-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  h6 i {
+    margin-right: 1.2rem;
+  }
+  .work-experience-item span {
+    background-color: var(--primarily-color);
+    color: #fff;
+    padding: 0.6rem 1rem;
+    border-radius: 0.5rem;
+  }
+  .work-experience-item p {
+    line-height: 1.3;
+  }
+  /* end */
+  
+  /* begin: education */
+  .education {
+    margin-top: 2rem;
+  }
+  /* end */
+  /* end */
+  
+  /* begin: footer */
+  footer {
+    background-color: var(--primarily-color);
+    padding: 1.5rem 0;
+    color: #fff;
+    text-align: center;
+  }
+  footer p{
+      margin: 1.5rem;
+  }
+  footer a{
+      color: #fff;
+      cursor: pointer;
+  }
+  /* and */
+
+  
